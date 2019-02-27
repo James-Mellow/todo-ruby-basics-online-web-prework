@@ -20,7 +20,7 @@ puts "Nice!"
 end
 
 def last_evaluated_value
-"expert"
+expect(return_a_value).to eq("Nice")
 end
 
 def pizza_party
